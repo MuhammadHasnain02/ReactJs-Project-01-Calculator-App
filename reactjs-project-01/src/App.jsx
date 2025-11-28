@@ -143,7 +143,7 @@ function App() {
           ].map((btn, i) => (
 
             <button key={i} onClick={() => handleClick(btn)}
-            className={`rounded-lg py-3.5 transition-all duration-800 ease-in-out border border-gray-200 hover:cursor-pointer
+            className={`rounded-lg py-3.5 transition-all duration-200 ease-in-out border border-gray-200 hover:cursor-pointer
                 
               ${btn === "="
                 ? "bg-[#3d6fc6] text-white border-none hover:bg-[#3B7BF2]" 
